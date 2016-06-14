@@ -1,0 +1,23 @@
+{
+  "name": "eth-bin-to-ops",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-vm": "^1.4.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereumjs/bin-to-ops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ethereumjs/bin-to-ops/issues"
+  },
+  "homepage": "https://github.com/ethereumjs/bin-to-ops#readme",
+  "description": ""
+}
