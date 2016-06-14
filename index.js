@@ -8,6 +8,8 @@ function binToOps(contractCode){
   var ops = []
   for (var index = 0; index < contractCode.length; index++) {
     var currentOp = lookupOpcode(contractCode[index], true)
+    // record the program counter
+    currentOp.pc = index
     ops.push(currentOp)
     // handle PUSH inline data
     if (currentOp.name.slice(0, 4) === 'PUSH') {
