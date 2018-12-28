@@ -1,4 +1,4 @@
-const lookupOpcode = require('ethereumjs-vm/lib/opcodes.js')
+const lookupOpcode = require('ethereumjs-vm/dist/opcodes.js')
 
 
 
